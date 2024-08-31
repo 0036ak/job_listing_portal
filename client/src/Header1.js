@@ -9,15 +9,16 @@ function Header1()
         <span className="site-title">Job Portal</span>
       </div>
       <nav className="header-nav">
-        <a href="" className="nav-item">Home</a>
-        <a href="" className="nav-item">Jobs</a>
-        <a href="" className="nav-item">About Us</a>
-        <a href="" className="nav-item">Contact Us</a>
+        <a href=" " className="nav-item">Home</a>
+        <a href=" " className="nav-item">Jobs</a>
+        <a href=" " className="nav-item">About Us</a>
+        <a href=" " className="nav-item">Contact Us</a>
       </nav>
       <div className="header-right">
-        <a href="" className="login">Login</a>
+        <a href=" " className="login">Login</a>
         <button className="register-button">Register</button>
       </div>
+    
     </header>
   
            
