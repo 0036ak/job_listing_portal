@@ -1,5 +1,9 @@
+import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from './job.png';
+import Login from './components/login.component';
+import Signup from './components/signup.component';
+
 function Header1()
 {
     return(
@@ -15,8 +19,10 @@ function Header1()
         <a href=" " className="nav-item">Contact Us</a>
       </nav>
       <div className="header-right">
-        <a href=" " className="login">Login</a>
-        <button className="register-button">Register</button>
+        <Link to="/Login">
+        <button className="login">Login</button></Link>
+        <Link to="/Signup"><button className="register-button">Sign up</button></Link>
+
       </div>
     
     </header>
