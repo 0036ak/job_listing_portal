@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const JobCard = ({ title, company, rating, reviews, experience, salary, location, skills, daysAgo, logo }) => {
     return (
@@ -50,18 +51,18 @@ const JobCard = ({ title, company, rating, reviews, experience, salary, location
                     </div>
                 </div>
 
-
                 <p className="text-gray-400 text-xs mt-2">{daysAgo} Days Ago</p>
             </div>
 
 
-            <div className="flex flex-col items-center space-y-4">
+            <div className="flex flex-col items-center space-y-8">
                 <img
                     src={logo}
                     alt="Company Logo"
                     className="w-12 h-12 object-cover rounded-full"
                 />
                 
+                <Link to="/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Apply</Link>
             </div>
 
         </div>
