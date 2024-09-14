@@ -11,7 +11,6 @@ function Footer1() {
                     <ul class="space-y-2">
                         <li><a href="#" class="hover:text-blue-500">About Us</a></li>
                         <li><a href="#" class="hover:text-blue-500">Contact Us</a></li>
-                        <li><a href="#" class="hover:text-blue-500"></a></li>
                         <li><a href="#" class="hover:text-blue-500">Privacy policy</a></li>
                         <li><a href="#" class="hover:text-blue-500">Terms & conditions</a></li>
                     </ul>
